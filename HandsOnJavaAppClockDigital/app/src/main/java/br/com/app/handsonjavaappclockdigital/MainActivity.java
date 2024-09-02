@@ -27,13 +27,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        iniciarComponentesLayout();
+        iniciarComponentesDeLayout();
     }
 
-    private void iniciarComponentesLayout() {
-        txtUpdateHoraAtual.findViewById(R.id.txtUpdateHoraAtual);
-        txtHoraAtual.findViewById(R.id.txtHoraAtual);
-        txtHora24PM_AM.findViewById(R.id.txtHora24PM_AM);
-        btnUpdateHoraAtual.findViewById(R.id.btnUpdateHoraAtual);
+    private void iniciarComponentesDeLayout() {
+        txtUpdateHoraAtual = findViewById(R.id.txtUpdateHoraAtual);
+        txtHoraAtual = findViewById(R.id.txtHoraAtual);
+        txtHora24PM_AM = findViewById(R.id.txtHora24PM_AM);
+        btnUpdateHoraAtual = findViewById(R.id.btnUpdateHoraAtual);
     }
 }
